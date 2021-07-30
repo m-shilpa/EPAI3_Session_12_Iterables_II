@@ -25,7 +25,6 @@ def test_readme_contents():
     readme = open(README_PATH, "r")
     readme_words = readme.read().split()
     readme.close()
-    print(readme_words)
     print(len(readme_words))
     assert len(readme_words) >= 500, "Make your README.md file interesting! Add atleast 500 words"
 
