@@ -11,7 +11,7 @@ import inspect
 import os
 import re
 
-README_PATH = "Session_12_Iterables_II/README.md"
+README_PATH = "README.md"
 
 README_CONTENT_CHECK_FOR = [
     "Polygon Sequence",
